@@ -1,5 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 #title {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25pt;
+  display:float;
+  
+}
+
+#txt-just-Gambit {
+  text-align: center;
+}
+
+#title-container {
+  box-decoration-break: slice;
+}
+
+.break {
+  background-color: #FF9B85;
+  padding: 10px;
+  width: 120%;
+  margin-left: -50px;
 }
 
 #tribute-info {
@@ -8,29 +31,37 @@
   margin-right: 20px;
 }
 
-#img-div {
-  content-align: center;
+#txt-intro {
+  padding-top:10px;
 }
 
-#image {
+#img-div {
+  display: table-cell;
+}
+#imgGambit {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
-  max-width:100%;
+  border-radius: 20%;
+  max-width:35%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 body {
-  background-color: #333;
-  font-family: 'Arial'
+  background-color: #FF9B85;
+  font-family: 'Open Sans', sans-serif;
 }
 #main {
-  margin: 30px 50px;
-  padding: 15px;
+  margin: 30px 400px;
+  padding: 25px;
   border-radius: 5px;
   background: #eee;
 }
 #img-caption {
   text-align: center;
+}
+
+#container-float {
+  width: 100%;
+  display: table;
 }
