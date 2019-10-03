@@ -1,0 +1,36 @@
+#title {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#img-div {
+  content-align: center;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width:100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body {
+  background-color: #333;
+  font-family: 'Arial'
+}
+#main {
+  margin: 30px 50px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+#img-caption {
+  text-align: center;
+}
